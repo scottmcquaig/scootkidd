@@ -1,101 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ScottKidd.com — Scoot Kidd</title>
-  <meta name="description" content="Scoot Kidd — Author of Stoic AF. Built AF coming soon.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="site-header">
-    <nav class="nav container">
-      <a class="brand" href="#top">ScottKidd<span class="dot">.</span>com</a>
-      <div class="nav-links">
-        <a href="#stoic-af">Stoic AF</a>
-        <a href="#built-af">Built AF</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
 
-  <main id="top">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <img src="assets/hero-logo.png" alt="Scoot Kidd — Wheelin’ in another classic!" class="hero-logo" />
-        <p class="tagline">Author. Thinker. Classic&nbsp;Maker.</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="#stoic-af">Read Stoic AF</a>
-          <a class="btn btn-ghost" href="#built-af">Built AF — Coming Soon</a>
-        </div>
-      </div>
-    </section>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Single-Page Website Layout</title>
+    </head>
 
-    <!-- STOIC AF -->
-    <section id="stoic-af" class="section container split">
-      <div class="copy">
-        <h2>Stoic AF</h2>
-        <p>A sharp, funny, and unfiltered remix of Stoicism for the modern era. Ancient steel. Modern grit.</p>
-        <ul class="bullets">
-          <li>Actionable Stoic drills for real chaos</li>
-          <li>Bro breakdowns of Marcus, Seneca, and Epictetus</li>
-          <li>Designed to be <em>used</em>, not just read</li>
-        </ul>
-        <!-- TODO: Replace # with actual purchase link -->
-        <a class="btn btn-primary" href="#" target="_blank" rel="noopener">Buy Now</a>
-      </div>
-      <div class="panel">
-        <div class="card">
-          <h3>What Readers Say</h3>
-          <p>“Like a cold plunge for your mindset. I finally stopped spiraling and started acting.”</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- BUILT AF -->
-    <section id="built-af" class="section container split alt">
-      <div class="copy">
-        <h2>Built AF <span class="pill">Coming Soon</span></h2>
-        <p>The high-performer’s guide to sustainable strength—systems, not hype. Training that stacks with life, not against it.</p>
-        <form class="signup" onsubmit="event.preventDefault(); alert('Thanks! You’re on the list.');">
-          <label class="sr-only" for="email">Email</label>
-          <input id="email" type="email" placeholder="your@email.com" required>
-          <button class="btn btn-primary" type="submit">Join Launch List</button>
-        </form>
-      </div>
-      <div class="panel">
-        <div class="card">
-          <h3>What to Expect</h3>
-          <ul class="bullets">
-            <li>Minimalist plans that actually fit your week</li>
-            <li>Recovery as a first-class citizen</li>
-            <li>Metrics that matter: strength, energy, consistency</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT / FOOTER -->
-    <section id="contact" class="section container center">
-      <h2>Say hello</h2>
-      <p>Partnerships, podcasts, speaking, or just to connect.</p>
-      <div class="cta-row">
-        <!-- TODO: Replace with your real links -->
-        <a class="btn btn-ghost" href="mailto:hello@scottkidd.com">hello@scottkidd.com</a>
-        <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Amazon Author</a>
-        <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Instagram</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 Scoot Kidd • All Rights Reserved</p>
-    </div>
-  </footer>
-</body>
-</html>
+    <body>
+      <div id="root"></div>
+      <script type="module" src="/src/main.tsx"></script>
+    </body>
+  </html>
+  
